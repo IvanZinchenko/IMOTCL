@@ -1,0 +1,104 @@
+@import "fonts";
+@import "index";
+
+// Переменные
+$black: #393E46;
+$blue: #00ADB5;
+$white: #FFF4E0;
+$red: #FC3C3C;
+
+html, body {
+    background-color: $white;
+    font-family: "Source Sans Pro";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: $black; 
+    overflow-x: hidden;
+}
+a {
+    color: $black;
+
+    &.logo, &.logo-index, &.logo-one {
+        color: $white;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+img {
+    border-radius: .62em;
+    box-shadow: .31em .31em 19px 0px rgba(0,0,0,0.3);
+}
+.bold {
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+    display: block;
+}
+#wrapper {
+    width: 100%;
+    height: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+#header {
+    background-color: $black;
+    color: $white;
+    font-family: "RussoOne";
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    @media (max-width: 790px) {
+        flex-direction: column;
+    }
+}
+.logo-index {
+    font-size: 1.6em;
+    text-align: center;
+    flex: 1;
+    &:nth-child(2) {
+        font-size: 3.1em;
+        flex: 2;
+    }
+}
+#main {
+    width: 90%;
+    font-size: 18px;
+    @media (max-width: 88em) {
+        width: 75em;
+    }
+    @media (max-width: 74em) {
+        width: 60em;
+    }
+    @media (max-width: 70em) {
+        width: 54em;
+    }
+    @media (max-width: 56em) {
+        width: 49em;
+    }
+    @media (max-width: 50em) {
+        width: 40em;
+    }
+    @media (max-width: 41em) {
+        width: 95%;
+    }
+    margin: 1em auto;
+}
+.br::before {
+    content: " ";
+    display: block;
+    background-color: $black;
+    height: .12em;
+    width: 100%;
+}
+#footer {
+    padding: 1em 0;
+    text-align: center;
+}
