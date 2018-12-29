@@ -25,4 +25,4 @@ gulp.task("watch", function() {
     gulp.watch("./app/*.html").on("change", browserSync.reload);
 })
 
-gulp.task("default", gulp.parallel("watch" ,"browser-sync"));
+gulp.task("default", gulp.parallel("sass" ,"watch" ,"browser-sync"));

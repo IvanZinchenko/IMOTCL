@@ -1,15 +1,15 @@
+// Переменные
+$black: #393E46;
+$blue: #00ADB5;
+$white: #FFF4E0;
+$red: #FC3C3C;
+
 @import "fonts";
 @import "index";
 @import "author";
 @import "font-awesome/fontawesome.scss";
 @import "font-awesome/solid.scss";
 @import "font-awesome/brands.scss";
-
-// Переменные
-$black: #393E46;
-$blue: #00ADB5;
-$white: #FFF4E0;
-$red: #FC3C3C;
 
 html, body {
     background-color: $white;

@@ -1,0 +1,16 @@
+#main.author {
+    height: 83%;
+    display: flex;
+    #contacts {
+        border: .38em solid $blue;
+        border-radius: .4em;
+        font-size: 2em;
+        line-height: 1.2em;
+        padding: .5em;
+        margin: auto;
+        display: inline-table;
+        a {
+            text-decoration: none;
+        }
+    }
+}

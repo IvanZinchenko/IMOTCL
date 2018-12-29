@@ -61,6 +61,29 @@
           flex: 2;
 }
 
+#main.author {
+  height: 83%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main.author #contacts {
+  border: 0.38em solid #00ADB5;
+  -webkit-border-radius: .4em;
+          border-radius: .4em;
+  font-size: 2em;
+  line-height: 1.2em;
+  padding: .5em;
+  margin: auto;
+  display: inline-table;
+}
+
+#main.author #contacts a {
+  text-decoration: none;
+}
+
 .fa,
 .fas,
 .far,
