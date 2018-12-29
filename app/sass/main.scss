@@ -1,5 +1,9 @@
 @import "fonts";
 @import "index";
+@import "author";
+@import "font-awesome/fontawesome.scss";
+@import "font-awesome/solid.scss";
+@import "font-awesome/brands.scss";
 
 // Переменные
 $black: #393E46;
@@ -55,22 +59,17 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    @media (max-width: 790px) {
+    @media (max-width: 53em) {
         flex-direction: column;
     }
-}
-.logo-index {
-    font-size: 1.6em;
-    text-align: center;
-    flex: 1;
-    &:nth-child(2) {
-        font-size: 3.1em;
-        flex: 2;
+    .logo {
+        font-size: 2.6em;
+        text-align: center;
+        flex: 1;
     }
 }
 #main {
     width: 90%;
-    font-size: 18px;
     @media (max-width: 88em) {
         width: 75em;
     }
