@@ -1,6 +1,6 @@
-# IMOTCL
-Interactiv map of the city Lesnoy
-## Default html code
+#IMOTCL
+Project "Interactie map of the city Lesnoy" uses sass technology.
+##Default html page
 ```
     <!DOCTYPE html>
     <html lang="ru">
@@ -16,7 +16,8 @@ Interactiv map of the city Lesnoy
     <body>
         <div id="wrapper">
             <div id="header">
-                <a href="./index.html" class="logo logo-one">Город Лесной</a>
+                  <a href="./index.html" class="logo">Город Лесной</a>
+                  <a href="map.html" class="logo">Вернуться на карту</a>
             </div>
             <div id="main">
                 Some text
