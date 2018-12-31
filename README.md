@@ -35,3 +35,4 @@ Project "Interactie map of the city Lesnoy" uses sass technology.
 - author.html
 - map.html
 - history.html
+- 404.html
