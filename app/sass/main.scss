@@ -1,15 +1,22 @@
 // Переменные
-$black: #393E46;
+/* $black: #393E46;
 $blue: #00ADB5;
 $white: #FFF4E0;
-$red: #FC3C3C;
+$red: #FC3C3C; */
+$black: #2C3E50;
+$red: #E74C3C;
+$white: #ECF0F1;
+$blue: #3498DB;
 
-@import "fonts";
-@import "index";
-@import "author";
+@import "normalize";
 @import "font-awesome/fontawesome.scss";
 @import "font-awesome/solid.scss";
 @import "font-awesome/brands.scss";
+@import "fonts";
+@import "index";
+@import "author";
+@import "map";
+@import "404";
 
 html, body {
     background-color: $white;
@@ -34,7 +41,7 @@ a {
 }
 img {
     border-radius: .62em;
-    box-shadow: .31em .31em 19px 0px rgba(0,0,0,0.3);
+    box-shadow: .31em .31em .8em 0px rgba(0,0,0,0.2);
 }
 .bold {
     font-weight: bold;
@@ -67,6 +74,7 @@ img {
         text-align: center;
         flex: 1;
     }
+    padding: .2em;
 }
 #main {
     width: 90%;

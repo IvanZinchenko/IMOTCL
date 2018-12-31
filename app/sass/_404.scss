@@ -1,0 +1,12 @@
+div.error404 {
+    font-size: 2em;
+    text-align: center;
+    border: .31em solid $red;
+    border-radius: .4em;
+    max-width: 14em;
+    margin: 0 auto;
+    padding: .5em;
+    span.error404 {
+        font-size: 2em;
+    }
+}

@@ -4,13 +4,19 @@
     #contacts {
         border: .38em solid $blue;
         border-radius: .4em;
-        font-size: 2em;
+        font-size: 3em;
         line-height: 1.2em;
         padding: .5em;
         margin: auto;
         display: inline-table;
         a {
             text-decoration: none;
+        }
+        @media (max-width: 70em) {
+            font-size: 2.5em;
+        }
+        @media (max-width: 50em) {
+            font-size: 2em;
         }
     }
 }
