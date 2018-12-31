@@ -5978,7 +5978,6 @@ readers do not read off random characters that represent icons */
 #main a#a-index-map {
   display: block;
   text-align: center;
-  margin: .62em 0;
 }
 
 #main a#a-index-map #index-map {
@@ -6083,9 +6082,14 @@ a.logo:hover, a.logo-index:hover, a.logo-one:hover {
   text-decoration: underline;
 }
 
+h2 {
+  font-size: 1.7em;
+}
+
 img {
   -webkit-border-radius: .62em;
           border-radius: .62em;
+  margin: 1em 0;
   -webkit-box-shadow: 0.31em 0.31em 0.8em 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0.31em 0.31em 0.8em 0px rgba(0, 0, 0, 0.2);
 }
