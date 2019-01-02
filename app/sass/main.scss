@@ -17,6 +17,7 @@ $blue: #3498DB;
 @import "author";
 @import "map";
 @import "404";
+@import "history";
 
 html, body {
     background-color: $white;
@@ -40,8 +41,13 @@ a {
     }
 }
 h2 {
-    font-size: 1.7em;
+    font-size: 1.8em;
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
 img {
     border-radius: .62em;
     margin: 1em 0;
@@ -60,7 +66,7 @@ img {
     width: 100vw;
     height: 100vh;
 }
-#header {
+header {
     background-color: $black;
     color: $white;
     font-family: "RussoOne";
@@ -80,7 +86,7 @@ img {
     }
     padding: .2em;
 }
-#main {
+main {
     width: 90%;
     @media (max-width: 88em) {
         width: 75em;
@@ -109,7 +115,7 @@ img {
     height: .12em;
     width: 100%;
 }
-#footer {
+footer {
     padding: 1em 0;
     text-align: center;
 }
