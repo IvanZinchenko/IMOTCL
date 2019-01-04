@@ -1,0 +1,14 @@
+.item-40s {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-item-40s {
+    min-width: 20em;
+    min-height: 10em;
+    width: 40%;
+    height: 30%;
+}

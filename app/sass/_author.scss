@@ -8,10 +8,18 @@ main.author {
         line-height: 1.2em;
         padding: .5em;
         margin: auto;
-        display: inline-table;
+        display: flex;
+        flex-direction: row;
+
+        div:first-child {
+            text-align: center;
+            margin-right: .1em;
+        }
+
         a {
             text-decoration: none;
         }
+
         @media (max-width: 70em) {
             font-size: 2.5em;
         }
@@ -19,4 +27,4 @@ main.author {
             font-size: 2em;
         }
     }
-}
+} 

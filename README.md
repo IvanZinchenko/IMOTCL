@@ -1,7 +1,7 @@
 # IMOTCL
 Project "Interactie map of the city Lesnoy" uses sass technology.
 ## Default html page
-```
+```html
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -15,16 +15,16 @@ Project "Interactie map of the city Lesnoy" uses sass technology.
 <body>
     <div id="wrapper">
         <header>
-                <a href="index.html" class="logo">Город Лесной</a>
-                <a href="map.html" class="logo">Вернуться на карту</a>
-        </div>
+            <a href="index.html" class="logo">Город Лесной</a>
+            <a href="map.html" class="logo">Вернуться на карту</a>
+        </header>
         <main>
             
-        </div>
+        </main>
         <div class="br"></div>
         <footer>
             <a href="author.html">Автор сайта - Зинченко Иван</a><br>
-        </div>
+        </footer>
     </div>
 </body>
 </html>
@@ -35,3 +35,5 @@ Project "Interactie map of the city Lesnoy" uses sass technology.
 - map.html
 - history.html
 - 404.html
+- 40s.html
+- 50s.html

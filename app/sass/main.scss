@@ -18,6 +18,7 @@ $blue: #3498DB;
 @import "map";
 @import "404";
 @import "history";
+@import "40s";
 
 html, body {
     background-color: $white;
@@ -108,8 +109,8 @@ main {
     }
     margin: 1em auto;
 }
-.br::before {
-    content: " ";
+.br {
+    // content: " ";
     display: block;
     background-color: $black;
     height: .12em;
