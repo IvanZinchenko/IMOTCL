@@ -21,6 +21,37 @@
         }
     }
 }
+.s62-wrapper {
+    @include school-flex;
+    .s62-item:first-child {text-align: center;}
+    .s62-item img {
+        @media (max-width: 74em) {
+            width: 95%;
+            text-align: center;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
+.s64-wrapper {
+    @include school-flex;
+    .s64-item:first-child {text-align: center;}
+    .s64-item img {
+        @media (max-width: 74em) {
+            width: 95%;
+            text-align: center;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
+#s64-img-1 {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 40em;
+    min-width: 18em;
+}
 .s73-wrapper {
     @include school-flex;
     flex-direction: column;
