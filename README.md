@@ -1,6 +1,6 @@
 # IMOTCL
-Project "Interactie map of the city Lesnoy" uses sass technology.
-## Default html page
+Проект "Интерактиваня карта города Лесного"
+## Структура HTML страницы
 ```html
 <!DOCTYPE html>
 <html lang="ru">
