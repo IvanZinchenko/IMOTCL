@@ -65,6 +65,31 @@
         }
     }
 }
+.s74-wrapper {
+    @include school-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .s74-item img {
+        @media (max-width: 74em) {
+            width: 80%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
+.s75-wrapper {
+    @include school-flex;
+    .s75-item:first-child {text-align: center;}
+    .s75-item img {
+        width: 70%;
+        @media (max-width: 74em) {
+            width: 80%;
+            text-align: center;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
 #s76-img {
     float: left;
     margin-left: 0;
