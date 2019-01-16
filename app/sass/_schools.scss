@@ -52,6 +52,31 @@
     max-width: 40em;
     min-width: 18em;
 }
+.s71-wrapper {
+    @include school-flex;
+    .s71-item:first-child {text-align: center;}
+    .s71-item img {
+        width: 80%;
+        @media (max-width: 74em) {
+            width: 95%;
+            text-align: center;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
+#s72-img {
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+    width: 50%;
+    @media (max-width: 50em) {
+        float: none;
+        text-align: center;
+        min-width: 16em;
+        margin: 0 auto;
+    }
+}
 .s73-wrapper {
     @include school-flex;
     flex-direction: column;
