@@ -1,0 +1,13 @@
+.img-build {
+    float: left;
+    max-width: 45em;
+    width: 50%;
+    margin-top: 0;
+    margin-left: 0;
+    @media (max-width: 70em) {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        min-width: 18em;
+    }
+}
