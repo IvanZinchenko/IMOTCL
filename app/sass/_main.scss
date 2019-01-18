@@ -58,10 +58,14 @@ header {
     @media (max-width: 53em) {
         flex-direction: column;
     }
+    
     .logo {
         font-size: 2.6em;
         text-align: center;
         flex: 1;
+        @media (max-width: 28em) {
+            font-size: 2em;
+        }
     }
     padding: .2em;
 }
