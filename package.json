@@ -10,8 +10,12 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-cache": "^1.1.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "imagemin-pngquant": "^7.0.0"
   }
 }
