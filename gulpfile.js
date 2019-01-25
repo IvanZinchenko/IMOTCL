@@ -50,6 +50,9 @@ gulp.task("build", gulp.series(function(cb) {gulp.series("clear"); cb()}, "img",
         return gulp.src("app/css/**/*.css").pipe(gulp.dest("dist/css"))
     },
     function() {
+        return gulp.src("app/fonts/**/*.js").pipe(gulp.dest("dist/fonts"))
+    },
+    function() {
         return gulp.src("app/js/**/*.js").pipe(gulp.dest("dist/js"))
     },
     function() {
