@@ -1,3 +1,5 @@
+'use strict';
+
 var gulp = require("gulp");
 var sass = require("gulp-sass");
 var autoprefixer = require("gulp-autoprefixer");
@@ -29,7 +31,7 @@ gulp.task("watch", function() {
     gulp.watch("./app/*.html").on("change", browserSync.reload);
 })
 
-gulp.task("clean", function() {
+gulp.task("clear", function(cb) {
     return del.sync("dist");
 })
 gulp.task('img', function() {
@@ -43,12 +45,16 @@ gulp.task('img', function() {
         .pipe(gulp.dest('dist/img'));
 });
 
-
-gulp.task("build", ["clean", "sass", "img"], function() {
-    return gulp.src('app/css/**/*').pipe(gulp.dest('dist/css'));
-    return gulp.src('app/fonts/**/*').pipe(gulp.dest('dist/fonts'));
-    return gulp.src('app/js/**/*').pipe(gulp.dest('dist/js'));
-    return gulp.src('app/*.html').pipe(gulp.dest('dist'));
-})
+gulp.task("build", gulp.series(function(cb) {gulp.series("clear"); cb()}, "img", 
+    function() {
+        return gulp.src("app/css/**/*.css").pipe(gulp.dest("dist/css"))
+    },
+    function() {
+        return gulp.src("app/js/**/*.js").pipe(gulp.dest("dist/js"))
+    },
+    function() {
+        return gulp.src("app/*.html").pipe(gulp.dest("dist"))
+    }
+))
 
 gulp.task("default", gulp.parallel("watch" ,"browser-sync"));
