@@ -59,7 +59,13 @@ gulp.task("build", gulp.series(function(cb) {gulp.series("clear"); cb()}, "img",
         return gulp.src("app/*.html").pipe(gulp.dest("dist"))
     },
     function() {
-        return gulp.src(["app/*", "!app/*.html"]).pipe(gulp.dest("dist"))
+        return gulp.src("app/.htaccess").pipe(gulp.dest("dist"))
+    },
+    function() {
+        return gulp.src("app/favicon.ico").pipe(gulp.dest("dist"))
+    },
+    function() {
+        return gulp.src("app/robots.txt").pipe(gulp.dest("dist"))
     }
 ))
 
