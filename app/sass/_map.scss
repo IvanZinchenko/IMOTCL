@@ -21,6 +21,11 @@
     @media (max-width: 41em) {
         width: auto !important;
     }
+    img {
+        display: block;
+        box-shadow: none !important;
+        border-radius: 0;
+    }
 }
 #main-body, #map-head {
     overflow-x: visible;
