@@ -49,22 +49,24 @@ header {
     background-color: $black;
     color: $white;
     font-family: "RussoOne", sans-serif;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    @media (max-width: 53em) {
-        flex-direction: column;
-    }
-    
-    .logo {
-        font-size: 2.6em;
+    div {
+        display: flex;
+        align-items: center;
         text-align: center;
-        flex: 1;
-        @media (max-width: 28em) {
-            font-size: 2em;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        @media (max-width: 53em) {
+            flex-direction: column;
+        }
+        
+        .logo {
+            font-size: 2.6em;
+            text-align: center;
+            flex: 1;
+            @media (max-width: 28em) {
+                font-size: 2em;
+            }
         }
     }
     padding: .2em;
