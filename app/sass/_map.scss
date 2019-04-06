@@ -1,7 +1,7 @@
 #map {
     width: 100%;
 }
-#main-map {
+.main-map {
     margin: 0;
     @media (max-width: 88em) {
         width: auto !important;
@@ -22,11 +22,11 @@
         width: auto !important;
     }
     img {
-        display: block;
         box-shadow: none !important;
         border-radius: 0;
+        overflow-x: visible !important;
     }
 }
-#main-body, #map-head {
-    overflow-x: visible;
-}
+// #main-body, #map-head {
+//     overflow-x: visible !important;
+// }
