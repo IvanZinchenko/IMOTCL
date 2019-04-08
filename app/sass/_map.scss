@@ -2,25 +2,9 @@
     width: 100%;
 }
 .main-map {
-    margin: 0;
-    @media (max-width: 88em) {
-        width: auto !important;
-    }
-    @media (max-width: 74em) {
-        width: auto !important;
-    }
-    @media (max-width: 70em) {
-        width: auto !important;
-    }
-    @media (max-width: 56em) {
-        width: auto !important;
-    }
-    @media (max-width: 50em) {
-        width: auto !important;
-    }
-    @media (max-width: 41em) {
-        width: auto !important;
-    }
+    margin: 0 auto;
+    width: auto !important;
+    text-align: center;
     img {
         box-shadow: none !important;
         border-radius: 0;
