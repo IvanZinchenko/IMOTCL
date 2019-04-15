@@ -24,7 +24,14 @@ main.author {
             font-size: 2.5em;
         }
         @media (max-width: 50em) {
-            font-size: 2em;
+            font-size: 1.5em;
         }
+    }
+    img {
+        margin: 0;
+        box-shadow: none;
+        border-radius: 0;
+        width: 1em;
+        height: 1em;
     }
 } 

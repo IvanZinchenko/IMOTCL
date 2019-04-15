@@ -25,3 +25,22 @@
 .img-gagarin.two {
     width: 40%;
 }
+h2 {
+    @media (max-width: 41em) {text-align: center;}
+    br {
+        display: none;
+        @media (max-width: 41em) {
+            display: block;
+        }
+    }
+    span.map {
+        font-size: 0.9em;
+        img {
+            margin: 0;
+            box-shadow: none;
+            border-radius: 0;
+            width: 1em;
+            height: 1em;
+        }
+    }
+}
