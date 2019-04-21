@@ -2,4 +2,6 @@ node_modules/
 src/
 dist1.0.zip
 dist1.1.zip
+dist1.2.zip
+dist1.3.zip
 .gitignore
