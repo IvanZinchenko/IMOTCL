@@ -5,3 +5,4 @@ dist1.1.zip
 dist1.2.zip
 dist1.3.zip
 .gitignore
+package-lock.json
